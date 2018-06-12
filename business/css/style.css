@@ -163,6 +163,7 @@ h1,h2,h3,h4,h5,h6{margin: 0;}
 .about .about-col h2{
     font-size: 36px;
     color: #444444;
+    text-align: center;
     font-weight: bold;
     margin-bottom: 17px;
 }
@@ -205,32 +206,25 @@ h1,h2,h3,h4,h5,h6{margin: 0;}
     background: #ffffff;
     box-shadow: 0px 0px 4px 0px #c5c5c5;
 }
-.approch .approch-post:nth-child(even) h2{
-    font-size: 18px;
-    color: #444444;
-    margin-bottom: 15px;
-    margin-left: 90px;
-}
-.approch .approch-post:nth-child(odd) h2{
-    font-size: 18px;
-    color: #444444;
-    margin-bottom: 15px;
-    margin-right: 90px;
-}
-.approch .approch-post:nth-child(even) p{
-    color: #5c5c5c;
-    font-size: 16px;
-    margin-left: 90px;
-}
-.approch .approch-post:nth-child(odd) p{
-    color: #5c5c5c;
-    font-size: 16px;
-    margin-right: 90px;
-    text-align: right;
-}
+
 .approch .approch-post .col-img{
     padding: 0;
     position: relative;
+}
+.approch-post-title{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.approch-post-title h2{
+    font-size: 18px;
+    color: #444444;
+    margin-bottom: 15px;
+}
+.approch-post-title p{
+    color: #5c5c5c;
+    font-size: 16px;
 }
 .approch .approch-post .col-img img{
     object-fit: cover;
@@ -269,11 +263,12 @@ h1,h2,h3,h4,h5,h6{margin: 0;}
 .work .col-img{
     padding: 0;
     overflow: hidden;
-    height: 200px;
+    max-height: 250px;
 }
 .work .col-img img {
     object-fit: cover;
     height: 100%;
+    width: 100%;
 }
 .work .col-name{
     display: flex;
@@ -282,10 +277,12 @@ h1,h2,h3,h4,h5,h6{margin: 0;}
     justify-content: center;
     background: #d55f59;
     color: #ffffff;
+
 }
 .work .col-name h2{
     font-size: 26px;
     color: #ffffff;
+    text-align: center;
 }
 .work .col-name h3{
     font-size: 16px;
@@ -347,7 +344,7 @@ h1,h2,h3,h4,h5,h6{margin: 0;}
     text-align: center;
 }
 .form .form-group{
-    width: 500px;
+    width: 100%;
 }
 .form form{
     display: flex;
@@ -357,6 +354,7 @@ h1,h2,h3,h4,h5,h6{margin: 0;}
 .form form .form-control{
     margin-bottom: 10px;
     height: 50px;
+    width: 100%;
 }
 .form form .form-control:last-child{
     margin-bottom: 0px;
@@ -426,8 +424,13 @@ h1,h2,h3,h4,h5,h6{margin: 0;}
     margin-bottom: 35px;
 }
 .main-footer
+.get form{
+
+}
+.main-footer
 .get form input{
-    width: 680px;
+
+    min-width: 300px;
     height: 56px;
     background: #525252;
     border: none;
