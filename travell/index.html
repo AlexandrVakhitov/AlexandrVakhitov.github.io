@@ -13,8 +13,8 @@
   <!-- Place favicon.ico in the root directory -->
 
   <!--Font-awesome-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
   <!--Google Font-->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
 
@@ -31,178 +31,194 @@
 </head>
 
 <body>
-<!--[if lte IE 9]>
+  <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
   your browser</a> to improve your experience and security.</p>
 <![endif]-->
-<header class="header">
-  <div class="container">
-    <div class="row">
-      <nav class="nav">
-        <a class="nav__logo" href="/"><img src="img/logo.png" alt=""></a>
-        <div class="nav__hamburger">
-          <i class="fas fa-bars"></i>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <nav class="nav">
+          <a class="nav__logo" href="/">
+            <img src="img/logo.png" alt="">
+          </a>
+          <div class="nav__hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="menu-collapse">
+            <ul class="menu-collapse__menu">
+              <li class="menu-collapse__item">
+                <a class="menu-collapse__link" href="#">home</a>
+              </li>
+              <li class="menu-collapse__item">
+                <a class="menu-collapse__link" href="#">about</a>
+              </li>
+              <li class="menu-collapse__item">
+                <a class="menu-collapse__link" href="#">blog</a>
+              </li>
+              <li class="menu-collapse__item">
+                <a class="menu-collapse__link" href="#">press</a>
+              </li>
+              <li class="menu-collapse__item">
+                <a class="menu-collapse__link" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="row justify-content-center">
+        <div class="offer">
+          <h1 class="offer__title">Where will you go next?&&&&</h1>
+          <form class="form" action="">
+            <input class="form__input" type="text" placeholder="Start typing...">
+            <button class="form__btn">GO</button>
+          </form>
         </div>
-        <div class="menu-collapse">
-          <ul class="menu-collapse__menu">
-            <li class="menu-collapse__item"><a class="menu-collapse__link" href="#">home</a></li>
-            <li class="menu-collapse__item"><a class="menu-collapse__link" href="#">about</a></li>
-            <li class="menu-collapse__item"><a class="menu-collapse__link" href="#">blog</a></li>
-            <li class="menu-collapse__item"><a class="menu-collapse__link" href="#">press</a></li>
-            <li class="menu-collapse__item"><a class="menu-collapse__link" href="#">contact</a></li>
+      </div>
+    </div>
+  </header>
+  <!--/.header-->
+  <section id="destinations" class="destinations">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 class="section-title__header">Top destinations</h2>
+          <p class="section-title__text">Some of the top destinations for your next summer adventure.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="section-post">
+          <div class="post">
+            <div class="post__images">
+              <img class="img" src="./img/img1.jpg" alt="img">
+              <div class="price">$300</div>
+            </div>
+            <div class="post__short">
+              <h2 class="post__title">amazing australia</h2>
+              <p class="post__text">Become inspired to travel to Australia. Discover fantastic things to do & places to go.
+              </p>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post__images">
+              <img class="img" src="./img/img2.jpg" alt="img">
+              <div class="price">$300</div>
+            </div>
+            <div class="post__short">
+              <h2 class="post__title">ancient south america</h2>
+              <p class="post__text">Become inspired to travel to Australia. Discover fantastic things to do & places to go.
+              </p>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post__images">
+              <img class="img" src="./img/img3.jpg" alt="img">
+              <div class="price">$300</div>
+            </div>
+            <div class="post__short">
+              <h2 class="post__title">modern north america</h2>
+              <p class="post__text">Become inspired to travel to Australia. Discover fantastic things to do & places to go.
+              </p>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post__images">
+              <img class="img" src="./img/img4.jpg" alt="img">
+              <div class="price">$300</div>
+            </div>
+            <div class="post__short">
+              <h2 class="post__title">classic europe</h2>
+              <p class="post__text">Become inspired to travel to Australia. Discover fantastic things to do & places to go.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/.destinations-->
+  <section class="before">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 class="section-title__header">Before you leave</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="section-post">
+          <div class="post">
+            <div class="post__short">
+              <h2 class="post__title">visa & documents</h2>
+              <p class="post__text">There are some things you should take care of before going to your next adventure. We’ll help you to get required
+                visas and documents needed..</p>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post__short">
+              <h2 class="post__title">visa & documents</h2>
+              <p class="post__text">There are some things you should take care of before going to your next adventure. We’ll help you to get required
+                visas and documents needed..</p>
+            </div>
+          </div>
+          <div class="post">
+            <div class="post__short">
+              <h2 class="post__title">visa & documents</h2>
+              <p class="post__text">There are some things you should take care of before going to your next adventure. We’ll help you to get required
+                visas and documents needed..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /.before -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="copy">Copyright © 2018 Travelly. All Rights Reserved. Designed for Despreneur.</div>
+        <nav class="footer__nav">
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="menu-link" href="#">Home</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">About</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">Blog</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">Press</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="#">Contact</a>
+            </li>
           </ul>
-        </div>
-      </nav>
-    </div>
-    <div class="row justify-content-center">
-      <div class="offer">
-        <h1 class="offer__title">Where will you go next?</h1>
-        <form class="form" action="">
-          <input class="form__input" type="text" placeholder="Start typing...">
-          <button class="form__btn">GO</button>
-        </form>
+        </nav>
       </div>
     </div>
-  </div>
-</header>
-<!--/.header-->
-<section id="destinations" class="destinations">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2 class="section-title__header">Top destinations</h2>
-        <p class="section-title__text">Some of the top destinations for your next summer adventure.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="section-post">
-        <div class="post">
-          <div class="post__images">
-            <img class="img" src="./img/img1.jpg" alt="img">
-            <div class="price">$300</div>
-          </div>
-          <div class="post__short">
-            <h2 class="post__title">amazing australia</h2>
-            <p class="post__text">Become inspired to travel to Australia. Discover fantastic things to do & places to
-              go.</p>
-          </div>
-        </div>
-        <div class="post">
-          <div class="post__images">
-            <img class="img" src="./img/img2.jpg" alt="img">
-            <div class="price">$300</div>
-          </div>
-          <div class="post__short">
-            <h2 class="post__title">ancient south america</h2>
-            <p class="post__text">Become inspired to travel to Australia. Discover fantastic things to do & places to
-              go.</p>
-          </div>
-        </div>
-        <div class="post">
-          <div class="post__images">
-            <img class="img" src="./img/img3.jpg" alt="img">
-            <div class="price">$300</div>
-          </div>
-          <div class="post__short">
-            <h2 class="post__title">modern north america</h2>
-            <p class="post__text">Become inspired to travel to Australia. Discover fantastic things to do & places to
-              go.</p>
-          </div>
-        </div>
-        <div class="post">
-          <div class="post__images">
-            <img class="img" src="./img/img4.jpg" alt="img">
-            <div class="price">$300</div>
-          </div>
-          <div class="post__short">
-            <h2 class="post__title">classic europe</h2>
-            <p class="post__text">Become inspired to travel to Australia. Discover fantastic things to do & places to
-              go.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--/.destinations-->
-<section class="before">
-  <div class="container">
-    <div class="row">
-      <div class="section-title">
-        <h2 class="section-title__header">Before you leave</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="section-post">
-        <div class="post">
-          <div class="post__short">
-            <h2 class="post__title">visa & documents</h2>
-            <p class="post__text">There are some things you should take
-              care of before going to your next
-              adventure. We’ll help you to get
-              required visas and documents needed..</p>
-          </div>
-        </div>
-        <div class="post">
-          <div class="post__short">
-            <h2 class="post__title">visa & documents</h2>
-            <p class="post__text">There are some things you should take
-              care of before going to your next
-              adventure. We’ll help you to get
-              required visas and documents needed..</p>
-          </div>
-        </div>
-        <div class="post">
-          <div class="post__short">
-            <h2 class="post__title">visa & documents</h2>
-            <p class="post__text">There are some things you should take
-              care of before going to your next
-              adventure. We’ll help you to get
-              required visas and documents needed..</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /.before -->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="copy">Copyright © 2018 Travelly. All Rights Reserved. Designed for Despreneur.</div>
-      <nav class="footer__nav">
-        <ul class="menu">
-          <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
-          <li class="menu-item"><a class="menu-link" href="#">About</a></li>
-          <li class="menu-item"><a class="menu-link" href="#">Blog</a></li>
-          <li class="menu-item"><a class="menu-link" href="#">Press</a></li>
-          <li class="menu-item"><a class="menu-link" href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</footer>
-<!-- /.footer -->
+  </footer>
+  <!-- /.footer -->
 
 
-<script src="js/vendor/modernizr-3.6.0.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-  window.ga = function () {
-    ga.q.push(arguments)
-  };
-  ga.q = [];
-  ga.l = +new Date;
-  ga('create', 'UA-XXXXX-Y', 'auto');
-  ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 
 </html>
